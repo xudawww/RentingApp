@@ -1,0 +1,29 @@
+.avatar{
+    width:100%;
+
+
+}
+.card{width: 30%; float: left;margin-left: 100px}
+.buttons{
+    width:30%;
+    margin: 50px;
+    display: flex;
+ 
+
+}
+.button{
+    margin: auto;
+    
+}
+.list{
+    float:left;
+    margin-left: 150px !important;
+}
+@media only screen and (max-width: 600px) {
+    .card{width:50%;margin-left: 25%}
+    .list{
+      
+        margin-left: 0px !important;
+    }
+    .buttons{display: block}
+}

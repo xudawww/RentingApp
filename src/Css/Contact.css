@@ -1,0 +1,64 @@
+.iconTextWrapper{
+    display: flex;
+    align-items: center;
+    color:#A0A0A0;
+    margin-left:20px;
+}
+.ListHistorys{
+    height:calc(100vh- 259.44px);
+    overflow: scroll;
+    position:fixed;
+    bottom: 0px;    
+    width: 30%;
+    float: left;
+    padding:0px !important;
+
+ 
+ 
+ }
+ .ListChat{
+    height:98vh;
+    height:calc(100vh-259.44px);
+    overflow: scroll;
+    position:fixed;
+    bottom: 0px;    
+    width: 70%;
+    float: left;
+    padding:0px;
+    height:calc(100vh - 249.44px);
+    padding:0px !important;
+    
+ 
+ }
+ .h3{
+     margin-left:20px;
+ }
+ .historyListLabel{width:30%}
+ .ChatListLabel{width:70%}
+.listTextRightWrap{
+   
+    width:fit-content;
+    float:right;
+    text-align:right;
+    padding-left:60px;
+    overflow-wrap:break-word; 
+}
+.listLeftTextWrap{
+    overflow-wrap:break-word;
+    padding-right:60px;
+}
+.subText{
+    text-align: left;
+    
+    font-size: 16px;
+}
+.textLine{
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+@media only screen and (max-width: 600px) {
+    .ListChat{display: none}
+    .ListHistorys{width:100%;}
+
+}

@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+.logo{
+  width:10%;
+  margin:2%;
+  float:left
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.AppbarMobile{
+  width:100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+#container{
+  position: absolute;
+  top:200px;
+  width:100vw;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.title {
+  flex-grow: 1;
+}
+.container{
+  margin-top:2%;
+  width:80%;
+  margin-left:5%;
+  float:left;
+ 
+}
+
+.root2 {
+  padding: 1px;
+  display: flex;
+  margin-left:20px;
+   
+  width: 300px;
+
+}
+.input {
+  margin-left: 0px;
+  flex: 1;
+  padding:10px
+};
+.input:focus {
+  margin-left: 10px;
+  flex: 1
+};
+.iconButton{
+  padding: 5px
+};
+
+.formControl{
+
+  margin:20px;
+  min-width:120px
+};
+
+.select:focused{
+  color:'#fffff';
+
+}
+.AppbarMobile{
+  width:100%;
+  position:fixed !important;
+  top:0px;
+  display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .row{display:block;width:100%; justify-content: center;}
+  .root{
+      width:80%;
+      padding:0px;
+      margin-left:10%;
+  
+  }
+  .footerWrap{
+    visibility: visible !important;
+  }
+  .footer{
+    height: 60px !important;
+
+    
+  }
+  .AppbarMobile{display: block !important }
+  .logo{display: none}
+  .container{
+      width: 100%;
+      display: none;
+  }
+  #container{
+    position: absolute;
+    top:80px;
+    width:100vw;
+    padding-bottom: 50px
+  }
+  
+ 
+}
+.footer{
+  height: 62px;
+  position:fixed;
+  bottom:0px;
+  z-index: 1000;
+  width:100%;
+}
+.footerWrap{
+  visibility:hidden ;
+}
+.spinnerWrap{
+  width:100%;
+}
+.spinner{
+  margin-left:50vw;
+  margin-top:50%;
+}

@@ -1,0 +1,36 @@
+
+.form{
+    margin: 30px !important;
+    min-width: 150px !important;
+}
+.iconInput{
+    color:gainsboro;
+    
+}
+.row{display:flex;width:100%; justify-content: center;}
+.root{
+    width:30%;
+    padding:10px;
+    margin:40px;
+
+}
+.cardWrapper{
+   
+}
+@media only screen and (max-width: 600px) {
+    .row{display:block;width:100%; justify-content: center;}
+    .root{
+        width:80%;
+        padding:0px;
+        margin-left:10%;
+    
+    }
+    .formGroup{
+       display: none;
+    
+    }
+  }
+
+
+
+
